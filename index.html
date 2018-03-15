@@ -14,7 +14,9 @@
 <body>
 Hey ho! This <a href="vendor-aad78b0d3a9ac5fa4a0dbbf2072757cf.js">link</a> leads to our vendor bundle on netlifly.
 This is a test we us to show if the file is problematic in itself or not. You can start the test by running this
-script in the console.
+script in the console. The median speed from Netlifly is around 1.5 seconds, with spikes up to 2.5 seconds (from Croatia).
+
+This is refering only to download speds, not waiting for first byte (TTFB).
 
 <pre>
     function startIntervalTest() {
@@ -24,6 +26,8 @@ script in the console.
 
         return handler;
     }
+
+    startIntervalTest();
 </pre>
 
 <script
