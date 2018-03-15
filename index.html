@@ -12,7 +12,25 @@
 </head>
 
 <body>
-Hey ho!
+Hey ho! This <a href="vendor-aad78b0d3a9ac5fa4a0dbbf2072757cf.js">link</a> leads to our vendor bundle on netlifly.
+This is a test we us to show if the file is problematic in itself or not. You can start the test by running this
+script in the console.
+
+<pre>
+    function startIntervalTest() {
+        var handler = setInterval(() => {
+            $.getScript('https://adoring-neumann-31cf47.netlify.com/vendor-aad78b0d3a9ac5fa4a0dbbf2072757cf.js') 
+        }, 3000);
+
+        return handler;
+    }
+</pre>
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
 <script src="vendor-aad78b0d3a9ac5fa4a0dbbf2072757cf.js"></script>
 </body>
 </html>
